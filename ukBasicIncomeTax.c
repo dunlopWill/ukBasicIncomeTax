@@ -90,7 +90,7 @@ int main(void)
     }
     else
     {
-        liableNSI = ceilingBRB * 0.2 + ceilingHRB * 0.4 + (taxableNSI - ceilingHRB) * 0.45;
+        liableNSI = ceilingBRB * 0.2 + (ceilingHRB - ceilingBRB) * 0.4 + (taxableNSI - ceilingHRB) * 0.45;
     }
 
     printf("Tax liability on taxable non-savings income is: £%d\n", liableNSI);
