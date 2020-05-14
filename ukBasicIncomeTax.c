@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <math.h>
 
+// Income types
 int nonSavingsIncome = 12500; //Input non-savings income here (Example)
 int savingsIncome = 48000; //Input savings income here (Example)
 int dividendIncome = 0; //Input dividend income (Example)
+
+// 2018/19 Personal allowance and tax rate bands
 int standardPA = 11850; //Personal allowance for the tax year 2018/19
 int ceilingBRB = 34500; //Basic rate band ceiling for non-savings and savings income for the tax year 2018/19
 int ceilingHRB = 150000; //Higher rate band ceiling for non-savings and savings income for the tax year 2018/19
